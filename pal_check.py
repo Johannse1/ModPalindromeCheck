@@ -12,6 +12,7 @@ def remove_punct(string): # check for any punctuation and removes all
                 newLine+=char
     return print(newLine)
 
+
 def check_palindrome(string):
     if len(string) < 1:
         return True
